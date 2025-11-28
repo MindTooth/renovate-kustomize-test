@@ -6,4 +6,4 @@ helmCharts:
   - name: usage-engine-private-edition
     releaseName: usage-engine-private-edition
     repo: https://digitalroute-public.github.io/usage-engine-private-edition
-    version: 4.2.4
+    version: 4.3.3
