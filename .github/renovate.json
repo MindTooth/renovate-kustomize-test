@@ -8,5 +8,12 @@
     ":separatePatchReleases"
   ],
 
-  "enabledManagers": ["kustomize"]
+  "enabledManagers": ["kustomize"],
+
+  "packageRules": [
+    {
+      "matchPackageNames": ["usage-engine-private-edition"],
+      "allowedVersions": "<5.1.0"
+    }
+  ]
 }
