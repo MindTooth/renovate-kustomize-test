@@ -8,12 +8,7 @@
     ":separatePatchReleases"
   ],
 
-  "enabledManagers": ["kustomize"],
+  "hashedBranchLength": 13,
 
-  "packageRules": [
-    {
-      "matchPackageNames": ["usage-engine-private-edition"],
-      "allowedVersions": "<5.1.0"
-    }
-  ]
+  "enabledManagers": ["kustomize"]
 }
