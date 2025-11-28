@@ -4,7 +4,8 @@
   "extends": [
     "github>MindTooth/renovate-default-preset",
     ":separateMultipleMajorReleases",
-    ":separateMultipleMinorReleases"
+    ":separateMultipleMinorReleases",
+    ":separatePatchReleases"
   ],
 
   "enabledManagers": ["kustomize"]
