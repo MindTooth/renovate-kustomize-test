@@ -8,7 +8,5 @@
     ":separatePatchReleases"
   ],
 
-  "hashedBranchLength": 13,
-
   "enabledManagers": ["kustomize"]
 }
