@@ -12,7 +12,7 @@
 
   "packageRules": [
     {
-      "matchPackageNames": ["keycloak/keycloak"],
+      "matchPackageNames": ["keycloak/keycloak", "quay.io/keycloak/keycloak"],
       "sourceUrl": "https://github.com/keycloak/keycloak/"
     }
   ]
