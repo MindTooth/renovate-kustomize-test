@@ -8,5 +8,12 @@
     ":separatePatchReleases"
   ],
 
-  "enabledManagers": ["kustomize"]
+  "enabledManagers": ["kustomize"],
+
+  "packageRules": [
+    {
+      "matchPackageNames": ["keycloak/keycloak"],
+      "sourceUrl": "https://github.com/keycloak/keycloak/"
+    }
+  ]
 }
