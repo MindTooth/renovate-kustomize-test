@@ -4,4 +4,4 @@ kind: Kustomization
 
 images:
   - name: quay.io/keycloak/keycloak
-    newTag: 26.4.4@sha256:c6459d5fae1b759f5d667ebdc6237ab3121379c3494e213898569014ede1846d
+    newTag: 26.5.3@sha256:5a236ae4dd8ece77490115bace15a11a4d15e9cbcf58a490b95a7da2cd71d32a
